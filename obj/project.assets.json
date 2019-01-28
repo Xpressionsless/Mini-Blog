@@ -12553,13 +12553,13 @@
       "projectName": "Mini-Blog",
       "projectPath": "/Users/xpressionsless/Documents/Github/Mini-Blog/Mini-Blog.csproj",
       "packagesPath": "/Users/xpressionsless/.nuget/packages/",
-      "outputPath": "/Users/xpressionsless/Documents/Github/Mini-Blog/obj/",
+      "outputPath": "/Users/xpressionsless/Documents/Github/Mini-Blog/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/xpressionsless/.nuget/NuGet/NuGet.Config"
+        "/Users/xpressionsless/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -12584,14 +12584,14 @@
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "[2.1.1, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
